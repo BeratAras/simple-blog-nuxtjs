@@ -1,13 +1,14 @@
 <template>
   <div>
-    <PostDetail />
+    <Header />
+    <nuxt />
   </div>
 </template>
 
 <script>
-import PostDetail from "~/components/post/PostDetail";
+import Header from "~/components/common/Header";
 export default {
-  components: {PostDetail}
+  components: {Header}
 }
 </script>
 
